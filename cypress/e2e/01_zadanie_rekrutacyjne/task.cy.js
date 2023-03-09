@@ -6,10 +6,10 @@ import { onCoursePage } from "../../support/pages/course_page";
 describe('Zadanie Rekrutacyjne', () => {
 
     it('Oddanie pracy domowej', () => {
-        //given
+
         const email = 'user888@gmail.com'
         const password = '1234567890'
-        //
+        
         onLoginPage.visitHomePage();
         onLoginPage.fillEmail(email);
         onLoginPage.fillPassword(password);
