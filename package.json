@@ -1,0 +1,13 @@
+{
+  "name": "zadanie-goit",
+  "version": "1.0.0",
+  "description": "Zadanie Rekrutacyjne",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
